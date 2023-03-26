@@ -81,11 +81,7 @@ span {
         float:left;
 
 }
-.col-lg-4 {
-    width: 50%;
-    float: left;
 
-}
    
 }
 @media (max-width: 767px) {
