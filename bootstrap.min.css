@@ -60,35 +60,36 @@ span {
 }
 
 @media (min-width: 992px) {
-    .col-lg-4 {
+    .col-md-4 {
         width: 33.33%;
         float: left;
-
     }
     
 }
-@media (min-width: 768px) and (max-width:991px) {
+@media (min-width: 768px)and(max-width:991px)  {
 
     .col-md-6{
         
-        width:50% ;
-        float: left;
-
+        width: 45% ;
+margin-right: auto;
     }
-    .col-md-12{  
+    .col-md-6{  
         
-        width: 100%;
-        float:left;
+        width: 45%;
+margin-right: auto;
+}
+.col-md-12 {
+    width: 90%;
+    margin-right: auto;
 
 }
-
    
 }
 @media (max-width: 767px) {
     .col-sx-12 {
-        float: left;
-        width: 100%;
         
+        width: 100%;
+        float: left;
 
     }
 
